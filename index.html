@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- lang can be js for javascript, or ts for typescript -->
+<script defer lang="js">
+    function url(url) {
+        return router.push.url(url);
+    }
+
+</script>
+
+<!-- template can be 
+    normal html with 'html'. 
+    if you want to use jsx use 'nsx' which is my jsx runtime.
+    if use 'true' which is my templating language used in overridejs 
+-->
+<div template="true">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Xui App</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>My Xui App</h1>
+                </div>
+            </div>
+            <div class="body">
+                Hello undefined
+                <br />
+                knows
+                <ul>
+                    <li>
+                        <div>
+                            <h1>test</h1>
+                            <h2>1.0.0</h2>
+                            <h3></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h1>test2</h1>
+                            <h2>1.0.0</h2>
+                            <h3></h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </body>
+</div>
+
+<style>
+    @{s}
+</style>
+
+</html>

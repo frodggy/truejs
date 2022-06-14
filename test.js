@@ -20,15 +20,19 @@ let data = {
             <h1>${pkg.name}</h1>
             <h2>${pkg.version}</h2>
             <h3>${pkg.description}</h3>
-            
-        </div></li>`
+            </div></li>`
     })
 }
 
 
 
 let style = {
-    background: 'blue'
+    ".app": {
+        "background-size": 'cover',                 
+        "background": 'blue',
+        "background-repeat": "no-repeat",
+        "background-position": "center center",
+    }
 }
 
 module.exports = {
